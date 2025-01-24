@@ -5,7 +5,7 @@ import re
 import random
 
 # Paperless-ngx API-Details
-PAPERLESS_URL = "http://PAPERLESS:PORT"
+PAPERLESS_URL = "http://IP:9466"
 API_KEY = "API_KEY"
 HEADERS = {
     "Authorization": f"Token {API_KEY}",
