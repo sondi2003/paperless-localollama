@@ -1,3 +1,9 @@
+Would you like to help me with this project?
+then please contact me.
+
+Möchtest du mir bei diesem Projekt helfen?
+Dann melde dich doch bitte bei mir.
+
 # paperless-localollama
 
 
