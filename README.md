@@ -34,7 +34,7 @@ Dieses Projekt bietet ein Python-Skript, das Dokumente in einer [Paperless-ngx](
 
 2. **Abhängigkeiten installieren:**
    ```bash
-   pip install requests
+   pip install -r requirements.txt
    ```
 
 3. **OLLama CLI installieren:**
@@ -111,7 +111,7 @@ This project provides a Python script for automating document analysis and categ
 
 2. **Install dependencies:**
    ```bash
-   pip install requests
+   pip install -r requirements.txt
    ```
 
 3. **Install OLLama CLI:**
