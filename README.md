@@ -50,7 +50,7 @@ Dieses Projekt bietet ein Python-Skript, das Dokumente in einer [Paperless-ngx](
 ## Nutzung
 1. **Skript ausführen:**
    ```bash
-   python3 main.py
+   python3 paperless-localollama.py
    ```
 
 2. **Ablauf:**
@@ -127,7 +127,7 @@ This project provides a Python script for automating document analysis and categ
 ## Usage
 1. **Run the script:**
    ```bash
-   python3 main.py
+   python3 paperless-localollama.py
    ```
 
 2. **Workflow:**
