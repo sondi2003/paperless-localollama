@@ -1,12 +1,18 @@
+import os
 import requests
 import subprocess
 import json
 import re
 import random
 
-# Paperless-ngx API-Details
-PAPERLESS_URL = "http://IP:9466"
-API_KEY = "API_KEY"
+# Paperless-ngx API-Details aus Umgebungsvariablen beziehen
+PAPERLESS_URL = os.getenv("PAPERLESS_URL")
+API_KEY = os.getenv("API_KEY")
+
+if not PAPERLESS_URL or not API_KEY:
+    raise EnvironmentError(
+        "PAPERLESS_URL and API_KEY environment variables must be set"
+    )
 HEADERS = {
     "Authorization": f"Token {API_KEY}",
     "Accept": "application/json; version=6"

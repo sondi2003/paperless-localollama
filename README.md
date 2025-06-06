@@ -41,7 +41,7 @@ Dieses Projekt bietet ein Python-Skript, das Dokumente in einer [Paperless-ngx](
    Folge den [Installationsanweisungen von OLLama](https://ollama.ai/download).
 
 ## Konfiguration
-1. **API-Details anpassen:** Bearbeite die Variablen `PAPERLESS_URL` und `API_KEY` im Skript, um die URL und den API-Key deiner Paperless-ngx-Instanz anzugeben.
+1. **API-Details setzen:** Lege die Umgebungsvariablen `PAPERLESS_URL` und `API_KEY` fest, um die URL und den API-Key deiner Paperless-ngx-Instanz anzugeben, bevor du das Skript startest.
 2. **OLLama-Modell:** Stelle sicher, dass das Modell `llama3.2:3b` in deiner OLLama-Instanz verfügbar ist.
 3. **Optionen konfigurieren:**
    - `SAVE_CHANGES`: Ändere auf `False`, um Änderungen in Paperless-ngx zu deaktivieren.
@@ -118,7 +118,7 @@ This project provides a Python script for automating document analysis and categ
    Follow the [OLLama installation guide](https://ollama.ai/download).
 
 ## Configuration
-1. **Adjust API details:** Edit the variables `PAPERLESS_URL` and `API_KEY` in the script to set your Paperless-ngx instance's URL and API key.
+1. **Set API details:** Define the environment variables `PAPERLESS_URL` and `API_KEY` with your Paperless-ngx instance's URL and API key before starting the script.
 2. **OLLama model:** Ensure the `llama3.2:3b` model is available in your OLLama instance.
 3. **Configure options:**
    - `SAVE_CHANGES`: Set to `False` to disable changes in Paperless-ngx.
