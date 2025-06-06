@@ -282,8 +282,6 @@ def main():
         doc_id = doc["id"]
         title = doc["title"]
         content = doc["content"]
-        current_tags = doc.get("tags", [])
-
         if not content or content.strip() == "":
             print(f"Dokument ID {doc_id} hat keinen Inhalt. Überspringe.")
             continue
