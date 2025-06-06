@@ -3,6 +3,7 @@ import subprocess
 import json
 import re
 import random
+import shlex
 
 # Paperless-ngx API-Details
 PAPERLESS_URL = "http://IP:9466"
@@ -206,7 +207,7 @@ def analyze_with_ollama(content, existing_tags, timeout=60):
     )
 
     print("Starte Analyse mit OLLama ...")
-    command = ["ollama", "run", "llama3.2:3b"]
+    command = shlex.split(OLLAMA_COMMAND)
     process = subprocess.Popen(
         command,
         stdin=subprocess.PIPE,
